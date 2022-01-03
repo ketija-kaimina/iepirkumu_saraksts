@@ -48,13 +48,18 @@ const Item = ({
           color: "#a339a0",
           fontSize: "20px",
         }}
-        className={complete ? "complete" : ""}
       />
       <img
         style={{ cursor: "pointer" }}
         onClick={() => remove(id)}
         src="https://img.icons8.com/bubbles/50/000000/trash.png"
         alt="Izdzēst"
+      />
+       <img
+        style={{ cursor: "pointer" }}
+        src="https://img.icons8.com/emoji/36/000000/pencil-emoji.png"
+        onClick={() => handleItem(id)}
+        alt="edit item"
       />
     </div>
   );
