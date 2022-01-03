@@ -1,0 +1,14 @@
+.complete{
+    color: black;
+  
+}
+.item{
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      color: black;
+   
+}  
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
