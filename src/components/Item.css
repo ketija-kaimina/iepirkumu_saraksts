@@ -1,12 +1,7 @@
-.complete{
-    color: black;
-  
-}
 .item{
       display:flex;
       justify-content: center;
       align-items: center;
-      color: black;
    
 }  
 p{
