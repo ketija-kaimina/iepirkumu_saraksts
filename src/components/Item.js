@@ -46,16 +46,16 @@ const Item = ({
           outline: "none",
           backgroundColor: "transparent",
           color: "#a339a0",
-          fontSize: "20px",
+          fontSize: "22px",
         }}
       />
       <img
         style={{ cursor: "pointer" }}
         onClick={() => remove(id)}
-        src="https://img.icons8.com/bubbles/50/000000/trash.png"
+        src="https://img.icons8.com/fluency/48/000000/trash.png"
         alt="Izdzēst"
       />
-       <img
+      <img
         style={{ cursor: "pointer" }}
         src="https://img.icons8.com/emoji/36/000000/pencil-emoji.png"
         onClick={() => handleItem(id)}
