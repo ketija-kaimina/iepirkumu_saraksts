@@ -3,11 +3,6 @@ import "./App.css";
 import Item from "./components/Item";
 import { v4 as uuidv4 } from "uuid";
 
-const arr = () => {
-  let data = localStorage.getItem("data");
-  if (data) return JSON.parse(localStorage.getItem("data"));
-  else return [];
-};
 
 function App() {
   const [item, setItem] = useState("");
