@@ -44,10 +44,6 @@ function App() {
     else if (item.length > 25) setError("Vārds nevar būt garāks par 25 burtiem");
   };
 
-  React.useEffect(() => {
-    localStorage.setItem("data", JSON.stringify(list));
-  }, [list]);
-
   const handleChange = (e) => {
     setItem(e.target.value);
   };
