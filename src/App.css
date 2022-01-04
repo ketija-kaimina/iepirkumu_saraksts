@@ -27,7 +27,7 @@ h1{
 }
 
 .button:hover {
-  filter: brightness(110%);
+  color: #FFC0CB;
   border: none;
   outline: 0;
 }
