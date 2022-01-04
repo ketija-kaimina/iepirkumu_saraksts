@@ -15,20 +15,6 @@ const Item = ({
     setList(list.filter((el) => el.id !== id));
   };
 
-  const handleComplete = (id) => {
-    setList(
-      list.map((item) => {
-        if (item.id === id) {
-          return {
-            ...item,
-            complete: !item.complete,
-          };
-        }
-        return item;
-      })
-    );
-  };
-
   const handleItem = (id) => {
     const editItem = list.find((el) => el.id === id);
     setItem(editItem.item);
