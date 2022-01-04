@@ -3,7 +3,6 @@ import "./App.css";
 import Item from "./components/Item";
 import { v4 as uuidv4 } from "uuid";
 
-
 function App() {
   const [item, setItem] = useState("");
   const [edit, setEdit] = useState(false);
@@ -54,9 +53,11 @@ function App() {
           placeholder="Produkta nosaukums"
           onChange={handleChange}
         />
+            
         <button className="button" type="submit">
           Pievienot
         </button>
+
         {error && <p style={{ color: "black" }}>{error}</p>}
       </form>
       <div>
